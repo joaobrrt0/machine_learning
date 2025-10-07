@@ -57,11 +57,11 @@ arvore_predict
 
 df_predict = df_analise[["pessoa feliz"]]
 df_predict['predict_arvore'] = arvore_predict
+
+
+df_predict["proba_arvore"] = arvore.predict_proba(X)[:,1]
+
 df_predict
-
-
-#Acuracia
-(df_predict['pessoa feliz']  == df_predict["predict_arvore"]).mean()
 
 # %%
 pd.crosstab(df_predict["pessoa feliz"], df_predict["predict_arvore"])
@@ -69,4 +69,7 @@ pd.crosstab(df_predict["pessoa feliz"], df_predict["predict_arvore"])
 # %%
 (df_predict["pessoa feliz"] == 0).sum()
 (df_predict["pessoa feliz"] == 1).sum()
+# %%
+df_predict.to_csv("predict.csv", sep = ";", index = False)
+
 # %%
