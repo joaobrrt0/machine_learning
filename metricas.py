@@ -41,35 +41,87 @@ df_analise
 
 #%%
 features = df_analise.columns[:-1].tolist()
-# %%
-from sklearn import tree
 
 X = df_analise[features]
 y = df_analise["pessoa feliz"]
+
+
+from sklearn import tree
+from sklearn import naive_bayes 
+from sklearn import linear_model
 
 arvore = tree.DecisionTreeClassifier(random_state=42,
                                      min_samples_leaf=5,
                                      )
 arvore.fit(X, y)
+
+naive = naive_bayes.GaussianNB()
+naive.fit(X, y)
+
+reg = linear_model.LogisticRegression(penalty=None,fit_intercept=True)
+reg.fit(X,y)
 # %%
 arvore_predict = arvore.predict(X)
 arvore_predict
 
-df_predict = df_analise[["pessoa feliz"]]
+df_predict = df_analise[["pessoa feliz"]].copy()
 df_predict['predict_arvore'] = arvore_predict
-
-
 df_predict["proba_arvore"] = arvore.predict_proba(X)[:,1]
 
-df_predict
+df_predict["proba_naive"] = naive.predict_proba(X)[:,1]
+df_predict["predict_naive"] = naive.predict(X)
+
+df_predict["proba_reg"] = reg.predict_proba(X)[:,1]
+df_predict["predict_reg"] = reg.predict(X)
+
+df_predict.to_csv("predict.csv", sep=";", index=False)
+
 
 # %%
-pd.crosstab(df_predict["pessoa feliz"], df_predict["predict_arvore"])
+from sklearn import metrics
+from sklearn import naive_bayes
+
+acc_arvore = metrics.accuracy_score(df_predict["pessoa feliz"], df_predict["predict_arvore"])
+precisao_arvore = metrics.precision_score(df_predict["pessoa feliz"], df_predict["predict_arvore"])
+recall_arvore = metrics.recall_score(df_predict["pessoa feliz"], df_predict["predict_arvore"])
+roc_arvore = metrics.roc_curve(df_predict["pessoa feliz"], df_predict["proba_arvore"])
+auc_arvore = metrics.roc_auc_score(df_predict["pessoa feliz"], df_predict["proba_arvore"])
+auc_arvore
+
+acc_naive = metrics.accuracy_score(df_predict["pessoa feliz"], df_predict["predict_naive"])
+precisao_naive = metrics.precision_score(df_predict["pessoa feliz"], df_predict["predict_naive"])
+recall_naive = metrics.recall_score(df_predict["pessoa feliz"], df_predict["predict_naive"])
+roc_naive = metrics.roc_curve(df_predict["pessoa feliz"], df_predict["proba_naive"])
+auc_naive = metrics.roc_auc_score(df_predict["pessoa feliz"], df_predict["proba_naive"])
+auc_naive
+
+acc_reg = metrics.accuracy_score(df_predict["pessoa feliz"], df_predict["predict_reg"])
+precisao_reg = metrics.precision_score(df_predict["pessoa feliz"], df_predict["predict_reg"])
+recall_reg = metrics.recall_score(df_predict["pessoa feliz"], df_predict["predict_reg"])
+roc_reg = metrics.roc_curve(df_predict["pessoa feliz"], df_predict["proba_reg"])
+auc_reg = metrics.roc_auc_score(df_predict["pessoa feliz"], df_predict["proba_reg"])
+auc_reg
+
+
 
 # %%
-(df_predict["pessoa feliz"] == 0).sum()
-(df_predict["pessoa feliz"] == 1).sum()
+import matplotlib.pyplot as plt
+
+plt.figure(dpi=400)
+
+plt.plot(roc_arvore[0], roc_arvore[1], 'o-')
+plt.plot(roc_naive[0], roc_naive[1], 'o-')
+plt.plot(roc_reg[0], roc_reg[1], 'o-')
+plt.grid(True)    
+plt.title("ROC Curve")
+plt.xlabel("1 - Especificidade")
+plt.ylabel("Recall")
+
+plt.legend([f"Arvore: {auc_arvore: 2f}",
+            f"Naive: {auc_naive: 2f}",
+            f"Reg: {auc_reg: 2f}"])
+
 # %%
-df_predict.to_csv("predict.csv", sep = ";", index = False)
+plt.hist(df_predict["proba_arvore"])
 
 # %%
