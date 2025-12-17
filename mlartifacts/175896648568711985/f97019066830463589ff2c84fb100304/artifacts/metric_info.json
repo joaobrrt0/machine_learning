@@ -1,0 +1,4 @@
+{
+  "accuracy_score-2_unknown_dataset": "accuracy_score(y_true=y_teste, y_pred=y_teste_predict)",
+  "accuracy_score_unknown_dataset": "accuracy_score(y_true=y_train, y_pred=y_train_predict)"
+}

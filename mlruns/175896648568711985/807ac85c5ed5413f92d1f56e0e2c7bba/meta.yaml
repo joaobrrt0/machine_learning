@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/807ac85c5ed5413f92d1f56e0e2c7bba/artifacts
+end_time: 1760851449837
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 807ac85c5ed5413f92d1f56e0e2c7bba
+run_name: gifted-seal-359
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760850575630
+status: 3
+tags: []
+user_id: User

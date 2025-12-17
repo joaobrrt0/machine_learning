@@ -1,0 +1,6 @@
+artifact_location: file:///c:/Users/User/Desktop/machine_learning/churn/mlruns/940056014602274506
+creation_time: 1760642213907
+experiment_id: '940056014602274506'
+last_update_time: 1760642213907
+lifecycle_stage: active
+name: churn_exp

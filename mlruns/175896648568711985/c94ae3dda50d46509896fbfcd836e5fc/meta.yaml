@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/c94ae3dda50d46509896fbfcd836e5fc/artifacts
+end_time: 1760919758637
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: c94ae3dda50d46509896fbfcd836e5fc
+run_name: funny-snake-94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760919758411
+status: 3
+tags: []
+user_id: User

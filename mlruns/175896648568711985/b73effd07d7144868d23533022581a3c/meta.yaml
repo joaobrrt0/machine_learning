@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/b73effd07d7144868d23533022581a3c/artifacts
+end_time: 1760919564897
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: b73effd07d7144868d23533022581a3c
+run_name: vaunted-crane-309
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760919564663
+status: 4
+tags: []
+user_id: User

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/5c9d5c2687a64033855244c0073896e5/artifacts
+end_time: 1760644367080
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 5c9d5c2687a64033855244c0073896e5
+run_name: burly-fish-176
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760644351484
+status: 4
+tags: []
+user_id: User

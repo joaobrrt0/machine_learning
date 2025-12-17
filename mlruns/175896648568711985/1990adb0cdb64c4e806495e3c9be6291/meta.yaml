@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/1990adb0cdb64c4e806495e3c9be6291/artifacts
+end_time: 1760920665893
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 1990adb0cdb64c4e806495e3c9be6291
+run_name: agreeable-fox-527
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760920656642
+status: 3
+tags: []
+user_id: User

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/3334ac97f3414816b2b0d62569fe4d7c/artifacts
+end_time: 1760853397040
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 3334ac97f3414816b2b0d62569fe4d7c
+run_name: receptive-ant-625
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760852081393
+status: 3
+tags: []
+user_id: User

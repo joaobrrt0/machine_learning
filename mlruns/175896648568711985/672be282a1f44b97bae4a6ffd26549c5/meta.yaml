@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/672be282a1f44b97bae4a6ffd26549c5/artifacts
+end_time: 1760642447168
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 672be282a1f44b97bae4a6ffd26549c5
+run_name: adorable-shoat-164
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760642446926
+status: 3
+tags: []
+user_id: User

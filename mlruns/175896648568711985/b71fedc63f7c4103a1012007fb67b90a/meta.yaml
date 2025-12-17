@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/b71fedc63f7c4103a1012007fb67b90a/artifacts
+end_time: 1760919865722
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: b71fedc63f7c4103a1012007fb67b90a
+run_name: placid-croc-21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760919856707
+status: 3
+tags: []
+user_id: User

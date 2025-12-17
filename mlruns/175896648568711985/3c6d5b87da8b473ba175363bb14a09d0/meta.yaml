@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/3c6d5b87da8b473ba175363bb14a09d0/artifacts
+end_time: 1760644197908
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 3c6d5b87da8b473ba175363bb14a09d0
+run_name: rebellious-kit-325
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760644181111
+status: 4
+tags: []
+user_id: User

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/7fd3bd37fe8d45cbb18a1a4ef20acb60/artifacts
+end_time: 1760919452572
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 7fd3bd37fe8d45cbb18a1a4ef20acb60
+run_name: melodic-sow-448
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760919451455
+status: 3
+tags: []
+user_id: User

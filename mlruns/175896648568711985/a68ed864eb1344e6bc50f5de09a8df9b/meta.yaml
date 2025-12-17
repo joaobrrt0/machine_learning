@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/a68ed864eb1344e6bc50f5de09a8df9b/artifacts
+end_time: 1760920444422
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: a68ed864eb1344e6bc50f5de09a8df9b
+run_name: shivering-snipe-756
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760920444143
+status: 4
+tags: []
+user_id: User

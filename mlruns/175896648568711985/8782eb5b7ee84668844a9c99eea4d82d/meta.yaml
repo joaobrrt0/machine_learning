@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/8782eb5b7ee84668844a9c99eea4d82d/artifacts
+end_time: 1760643527833
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 8782eb5b7ee84668844a9c99eea4d82d
+run_name: amazing-asp-638
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760643493848
+status: 4
+tags: []
+user_id: User

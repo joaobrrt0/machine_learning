@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/User/Desktop/machine_learning/churn/mlruns/940056014602274506/6546b3a215a24d2683e31d99bed235be/artifacts
+end_time: 1760642267714
+entry_point_name: ''
+experiment_id: '940056014602274506'
+lifecycle_stage: active
+run_id: 6546b3a215a24d2683e31d99bed235be
+run_name: smiling-dog-895
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760642229114
+status: 3
+tags: []
+user_id: User

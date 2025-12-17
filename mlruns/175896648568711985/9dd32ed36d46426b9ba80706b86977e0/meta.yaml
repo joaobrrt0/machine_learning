@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/9dd32ed36d46426b9ba80706b86977e0/artifacts
+end_time: 1760920441557
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 9dd32ed36d46426b9ba80706b86977e0
+run_name: smiling-rat-572
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760920432532
+status: 3
+tags: []
+user_id: User

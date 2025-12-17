@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/e1a37935ce3347ca91c92203aa3b419e/artifacts
+end_time: 1760920375059
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: e1a37935ce3347ca91c92203aa3b419e
+run_name: puzzled-gnu-593
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760920374799
+status: 4
+tags: []
+user_id: User

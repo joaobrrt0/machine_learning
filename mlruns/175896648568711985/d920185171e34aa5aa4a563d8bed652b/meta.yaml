@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/d920185171e34aa5aa4a563d8bed652b/artifacts
+end_time: 1760643440243
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: d920185171e34aa5aa4a563d8bed652b
+run_name: angry-skink-701
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760643410537
+status: 4
+tags: []
+user_id: User

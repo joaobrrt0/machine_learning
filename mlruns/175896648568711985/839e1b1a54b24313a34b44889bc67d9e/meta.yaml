@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/839e1b1a54b24313a34b44889bc67d9e/artifacts
+end_time: 1760851480564
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 839e1b1a54b24313a34b44889bc67d9e
+run_name: carefree-wasp-587
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760850575630
+status: 3
+tags: []
+user_id: User

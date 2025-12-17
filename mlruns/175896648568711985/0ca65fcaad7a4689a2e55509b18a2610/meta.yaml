@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/0ca65fcaad7a4689a2e55509b18a2610/artifacts
+end_time: 1760920286455
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 0ca65fcaad7a4689a2e55509b18a2610
+run_name: debonair-mare-868
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760920285640
+status: 4
+tags: []
+user_id: User

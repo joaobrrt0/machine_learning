@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/becdeee8327f4dd994217c7aa7ca1f2c/artifacts
+end_time: 1760851449837
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: becdeee8327f4dd994217c7aa7ca1f2c
+run_name: redolent-shad-120
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760850575630
+status: 3
+tags: []
+user_id: User

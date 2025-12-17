@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/8da6e722c00b4cfa93305d1f60158d94/artifacts
+end_time: 1760919751964
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 8da6e722c00b4cfa93305d1f60158d94
+run_name: bemused-cod-834
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760919734113
+status: 3
+tags: []
+user_id: User

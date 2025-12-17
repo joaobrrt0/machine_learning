@@ -1,0 +1,14 @@
+artifact_uri: file:///c:/Users/User/Desktop/machine_learning/churn/mlruns/940056014602274506/8afef1c72b134ffc990c27b6524a6f50/artifacts
+end_time: 1760642229100
+entry_point_name: ''
+experiment_id: '940056014602274506'
+lifecycle_stage: active
+run_id: 8afef1c72b134ffc990c27b6524a6f50
+run_name: gregarious-hound-49
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760642227004
+status: 3
+tags: []
+user_id: User

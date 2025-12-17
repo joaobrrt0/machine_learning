@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/5e769e337f194632a8fa6dee14b57b14/artifacts
+end_time: 1760919955528
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: 5e769e337f194632a8fa6dee14b57b14
+run_name: angry-ray-864
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760919940523
+status: 4
+tags: []
+user_id: User

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/b5452ebf1215484cbe91c2e855b18834/artifacts
+end_time: 1760920370536
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: b5452ebf1215484cbe91c2e855b18834
+run_name: persistent-cub-725
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760920355446
+status: 3
+tags: []
+user_id: User

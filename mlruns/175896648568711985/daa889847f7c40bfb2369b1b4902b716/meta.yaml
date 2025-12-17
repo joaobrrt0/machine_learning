@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/175896648568711985/daa889847f7c40bfb2369b1b4902b716/artifacts
+end_time: 1760919981092
+entry_point_name: ''
+experiment_id: '175896648568711985'
+lifecycle_stage: active
+run_id: daa889847f7c40bfb2369b1b4902b716
+run_name: mercurial-skink-799
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760919980045
+status: 4
+tags: []
+user_id: User
