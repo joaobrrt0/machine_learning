@@ -1,15 +1,16 @@
-##Projetos de machine learning com diversos modelos e formulas.
 
-Este projeto traz modelos preditivos de machine learning com dados reais e treinados com diferentes finalidades.
+# 🤖 Machine Learning & Predictive Modeling Portfolio
 
-##A pasta churn mostra um modelo preditivo completo, desde do treino até o modelo completo de predição em deploy.
+This repository hosts a collection of predictive machine learning models trained on real-world data. It covers various algorithms and mathematical implementations, ranging from fundamental concepts to full deployment pipelines.
 
-##A pasta Data inclue todos os dados usados nos projetos.
+## 📂 Project Structure
 
-##A pasta inic, são os modelos base de aprendizado, modelos menores e dividos em cada função propria.
+| Folder/File | Description |
+| :--- | :--- |
+| **`/churn`** | 🚀 **End-to-End Project:** A complete Churn Prediction pipeline, from model training to production deployment. |
+| **`/Data`** | 💾 **Datasets:** Raw and processed real-world data used across all projects. |
+| **`/inic`** | 📚 **Fundamentals:** Base learning models and modular scripts focused on core ML concepts. |
+| **`/ml artifacts`** | 📊 **Artifacts:** Performance graphs, data visualizations, and model metrics. |
+| **`/mlruns`** | 🛠️ **Deployment & Tracking:** Experiment tracking logs and deployment proofs. |
+| **`neural.py`** | 🧠 **Neural Networks:** Implementation of an artificial neura
 
-##A pasta ml artifacts inclue todos os graficos gerados nos modelos base.
-
-##A pasta mlruns inclue a comprovação do site em deploy do modelo criado.
-
-##neural.py inclue um pequeno modelo de redes neurais.
